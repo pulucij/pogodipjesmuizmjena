@@ -22,6 +22,14 @@ Deklaracija potrebnih varijabli.
 
 #void draw() Ništa nije izmjenjeno.
 
-#void mousePressed() Još jedna izmjena vezana za millis() iz istog razloga, te dodano korištenje nove funkcije zacrveni() koja zacrveni odgovor koji je igrač pogrešno odabrao.
+#void mousePressed() Još jedna izmjena vezana za millis() iz istog razloga, te dodano korištenje nove funkcije zacrveni() koja zacrveni odgovor koji je igrač pogrešno odabrao. Također, omogućeno je da radi ponovno puštanje isječka pjesme nakon klika na "Pusti ponovo".
 
 #void generiraj_odgovore(int i) Ništa nije izmjenjeno.
+
+## Potencijalna buduća poboljšanja
+
+Na kraju iza bodova ispisivati neku poruku vezanu uz omjer točnih odgovora i proteklog vremena. Npr. "Dosta pjesama znaš, ali ide ti sporo!", "Sve znaš, svaka čast!", "Nisi baš neki znalac pjesama!".
+
+Naravno dodati još dosta isječaka pjesama da se igrica može igrati puno puta bez da dosadi tj. da se ponavljaju iste pjesme. Također, dodati levele i na svakom levelu druge pjesme. Što je viši level to su manje poznate pjesme. Dodati raspodjelu pjesama na žanrove pa da igrač može odigrati igru u kojoj se puštaju pjesme samo iz odabranog žanra.
+
+Što se tiče izgleda aplikacije, dodati neke dinamične efekte. Npr. leteće notice nakon točnog odgovora i slično.
